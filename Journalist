@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>The Opinions</h1>
+    </head>
+    <meta content="width=device-width, initial-scale=1.0">
+    <body>
+        <style>
+            html, body{
+            max-width: 100px;
+                min-width: 100%;
+                overflow-x: hidden;
+                
+            }
+        ul{
+    list-style-type: none;
+     
+    position:relative;
+            top: 0;
+            left: 485px;     
+            z-index: 1;
+    padding: 0;
+    
+            background-color: none;
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+            }
+            
+           
+            h1{
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            font-size: 312%;
+                margin-left: 520px;
+            }
+                
+                head{
+                position: sticky;
+                position: -webkit-sticky;
+                    top: 0;}
+           
+                
+            
+            .hra{width: 1250px; }
+            
+            .h2a{
+            
+                font-size: 23px;
+                padding-top: 7.5%; 
+                position: absolute;
+                top: 25px;
+                left: 280px;
+            }
+            .hrb{width:260px; height: 0px; color: #F5F5F5;position: absolute; top: 340px; left: 300px;}
+            .ba{
+                background-color: white;
+                border-style: solid;
+                border-radius: 8px;
+                padding: 0;
+                border-color: gray;
+                float: left;
+                transition: 0.1s;
+                width: 600px;
+                height: 300px;
+                cursor: pointer;
+                position: absolute;
+                
+                max-height: 100%;
+            }
+            .ba:hover{
+                background-color: #F5F5F5; border-color: black;
+            }
+                .imga{
+               height:100%; width: 43%; position: absolute; left: 0%; top: 0%; border-radius: 4px;
+                }
+            
+            .h2b{
+            font-size: 25px;
+                padding-top: 50px;
+                position: absolute;
+                top: 25px;
+                left: 325px;
+            }
+            .bb{
+            background-color: white;
+                border-style: solid;
+                border-radius: 8px;
+                transition: 0.1s;
+                border-color: gray;
+                width: 700px;
+                height: 200px;
+                float: right;
+                cursor: pointer;
+                padding: 0;
+                position: absolute;
+                left:658px;
+            }
+            .bb:hover{
+            background-color: #F5F5F5;
+                border-color: black;
+            }
+            .imgb{
+            width: 300px;
+                height: 196px;
+                margin: 0px;
+                border-radius: 4px;
+                position: absolute;
+                left:0px;
+                top: 0.5px;
+            }
+           
+            .pa{
+            color: gray;
+                position: absolute;
+                top: 360px;
+                left: 280px;
+                
+                text-align: left;
+            }
+            .pa2{
+            color: gray;
+                position: absolute;
+                top: 375px;
+                left: 280px;
+                
+                text-align: left;
+                
+            }
+            .h2c{
+                position: absolute;
+                top: 275px;
+                left: 25px;
+                font-size: 25px;
+            }
+            .bc{
+            background-color: white;
+                border-style: solid;
+                border-radius: 8px;
+                transition: 0.1s;
+                border-color: gray;
+                width: 700px;
+                height: 400px;
+                float: right;
+                cursor: pointer;
+                padding: 0;
+                position: absolute;
+                top: 485px;
+                left: 658px;
+            }
+            .bc:hover{
+                background-color: #F5F5F5;
+                border-color: black;
+            }
+            .imgc{
+            width: 680px;
+                height: 200px;
+                position: absolute;
+                top: 10px;
+                left: 4px;
+            }
+            .pc{
+                color: gray;
+                position: absolute;
+                top: 250px;
+                left: 400px;
+            }
+            .hrc{
+                color: #f5f5f5;
+                width: 0.01px;
+                height: 150px;
+                position: absolute;
+                top: 700px;
+                left: 1050px;
+            }
+            .bd{
+                position: absolute;
+                top: 585px;
+                left: 8px;
+                background-color: white;
+                border-style: solid;
+                border-radius: 8px;
+                border-color: gray;
+                transition: 0.1s;
+                width: 600px;
+                height: 300px;
+                cursor: pointer;            
+            }
+            .bd:hover{
+                background-color: #F5F5F5;
+                border-color: black;
+            }
+            .h2d{
+            font-size: 25px;
+            position: absolute;
+                top: 35%;
+                left: 47%;
+            }
+            .imgd{
+                position: absolute;
+                left: 0%;
+                top: 0%;
+                width: 40%;
+                height: 100%;
+                border-radius: 4px;
+                
+                
+            }
+            .hrd{                                          
+                width: 1250px;
+                height: 0%;
+                position: absolute;
+                top: 1000px;
+                margin-left: 50px;
+                
+            }
+            .h2e{
+                position: absolute;
+                top: 1010px;
+                left: 700px;
+                font-size: 50px;
+            }
+        </style>
+        
+        <ul>
+            <li><a href="">News</a></li>
+            <li><a href="">Tech</a></li>
+            <li><a href="">Politics</a></li>
+            <li><a href="">About</a></li>
+         
+        </ul> 
+       
+        <hr class="hra">
+        
+        <a href="file:///home/chronos/user/Downloads/iphone%20journalist.html"><button class="ba"><img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp9f1iK8YtfZV3x1KEL8EMXKhCWlUIFfnz7btmkbVTyiP4bpkSIA" alt="Image result for iPhone X" class="imga"><h2 class="h2a">What the iPhone does best.</h2><p class="pa">You may have seen around the tech community a</p><p class="pa2"> unified hate towards Apple and their products.</p></button></a>
+        <hr class="hrb">
+        <a href="file:///home/chronos/user/Downloads/Androidj.html"><button class="bb"><img src="https://cdn.pixabay.com/photo/2017/08/15/10/14/samsung-galaxy-s8-2643381_960_720.jpg" alt="Image result for Android phones" class="imgb"><h2 class="h2b">What Android phones do best.</h2></button></a>
+        
+        <a href=""><button class="bc"><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Fortnite.png" class="imgc"><h2 class="h2c">What I think about Fortnite 😮</h2><p class="pc">I can't go anywhere without seeing a news article or YouTube video about the popular game Fortnite.</p></button></a>
+        <hr class="hrc">
+        <a href=""><button class="bd"><img src="data:image/png;base64,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" class="imgd"><h2 class="h2d">Opinions on Android Pie</h2><p></p></button></a>
+       
+        <hr class="hrd">
+        <h2 class="h2e">Ad</h2>
+    </body>
+    
+ </html>
